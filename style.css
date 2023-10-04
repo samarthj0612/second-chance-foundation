@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "gilroy";
+  src: url("./fonts/GILROY-REGULAR.OTF");
+}
+@font-face {
+  font-family: "frock thin";
+  src: url("./fonts/FROCKTHIN-P7XZV.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  mix-blend-mode: difference;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 70px;
+  font-family: "gilroy";
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  color: white;
+}
+nav #links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav #links a {
+  text-decoration: none;
+  color: white;
+}
+#sj-main {
+  position: relative;
+  width: 100%;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+}
+#fixmain {
+  background-color: rgb(235, 230, 208);
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+#fixmain .band {
+  height: 100%;
+  width: 20%;
+}
+#fixmain .band div {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(31, 34, 39);
+}
+#fixmain #content {
+  position: absolute;
+  top: 55%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  mix-blend-mode: difference;
+  color: white;
+}
+#fixmain #content h1 {
+  font-size: 9vw;
+  font-family: "gilroy";
+  line-height: 9vw;
+  font-weight: bolder;
+}
+#fixmain #content > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  margin-top: 30px;
+}
+#fixmain #content #circle {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  border: 3px solid rgb(235, 230, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#fixmain #content #circle img {
+  width: 50%;
+}
+#fixmain #content p {
+  width: 70%;
+  font-size: 18px;
+  text-align: justify;
+  font-family: "frock thin";
+}
+#main2 {
+  height: initial;
+  background-color: rgb(31, 34, 39);
+  color: RGB(235, 230, 208);
+  padding: 50px;
+}
+#main2 #boxes {
+  display: flex;
+  gap: 50px;
+}
+#main2 #boxes > div {
+  border: 1px solid white;
+  width: 50%;
+}
+#main2 #boxes > div .top {
+  width: 100%;
+  height: 50vh;
+  background-image: url(./images/mountains.avif);
+  background-size: cover;
+  background-position: center;
+}
+#main2 #boxes > div .btm {
+  padding: 20px;
+}
+#main3 {
+  height: initial;
+  font-size: 40px !important;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  padding: 80px 150px;
+  background-color: rgb(235, 230, 208);
+}
+#main3 > div h1 {
+  font-size: 8vw;
+}
+#main3 > div a {
+  color: black;
+}
+#main4 {
+  height: initial;
+  background-color: RGB(31, 34, 39);
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 80px;
+  color: rgb(235, 230, 208);
+}
+#main4 > div {
+  height: 50vh;
+  width: 40%;
+  font-size: 30px;
+}
+#main4 span {
+  height: 300px;
+  width: 10px;
+  background-color: rgb(235, 230, 208);
+}
+#main4 #left {
+  height: 80vh;
+  background-color: rgb(239, 237, 226);
+  border: 1px solid white;
+}
+#main5 {
+  height: initial;
+  background-color: rgb(235, 230, 208);
+  font-size: 25px;
+  padding: 100px 80px;
+}
+#main5 p {
+  width: 70%;
+}
+#main5 > div {
+  background-color: black;
+  height: 500px;
+  width: 300px;
+  margin: 20px;
+  position: relative;
+  background-image: url(./images/girl.avif);
+  background-size: cover;
+  background-position: center;
+}
+#main5 > div h2 {
+  position: absolute;
+  bottom: -10%;
+}
+#footer {
+  background-color: rgb(31, 34, 39);
+  color: rgb(235, 230, 208);
+  height: 40vh;
+  display: flex;
+}
+#footer > div {
+  width: 25%;
+  padding: 50px;
+}
+#footer > div i {
+  background-color: rgb(235, 230, 208);
+  border-radius: 50%;
+  color: black;
+  padding: 10px;
+  font-size: 25px;
+  margin-right: 10px;
+}
+footer {
+  background-color: rgb(31, 34, 39);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(235, 230, 208);
+  padding: 10px 50px;
+}
